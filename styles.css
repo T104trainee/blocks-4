@@ -1,0 +1,60 @@
+body {
+  width: 60em;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  padding: 2em;
+  margin: 1em;
+}
+.second-division {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.third-division {
+  display: flex;
+  flex-direction: column;
+}
+
+.fourth-division {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#green {
+  background-color: #baffc9;
+  height: 25%;
+}
+
+#orange {
+  background-color: #ffdfba;
+  height: 25%;
+}
+
+#yellow {
+  background-color: #ffffba;
+}
+
+#red {
+  background-color: #ffb3ba;
+}
+
+#blue {
+  background-color: #bae1ff;
+}
+
+ul {
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+li {
+  background-color: white;
+  padding: 1em;
+  display: block;
+  margin: 1em;
+}
